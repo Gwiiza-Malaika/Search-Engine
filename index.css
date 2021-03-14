@@ -1,0 +1,88 @@
+* body{
+    /* background-color: #990011FF; */
+    /* color: black; */
+     background-image: url(image2.jpg);
+    background-repeat: repeat;
+    /* background-size: cover;  */
+    /* /* opacity:0.5; */
+}
+
+.container{ 
+    /* background-color:#FCF6F5FF; */
+    /* color:rgb(233, 149, 149); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 60px; 
+    /* box-shadow: grey 2px 2px; */
+    font-size: medium;
+    /* border-radius: 10px; */
+    /* opacity: 0.8; */
+    display:grid; 
+    grid-template-columns: repeat(2,auto);
+    margin-right: 20%;
+    text-align: center;
+}
+.city{
+       
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        /* transition: 0.3s; */
+        background-color:white;
+        width: 80%;
+        opacity: 0.8;
+        /* margin-left: 300px; */
+        margin-top: 60px;
+        /* display:grid; */
+        /* grid-template-columns: repeat(2,auto); */
+        /* grid-template-rows: 10%; */
+}
+.city:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+ /* #search{
+    margin-left: 500px;
+    width: 30%;
+    border:none;
+    height: 50px;
+    margin-top: -20%;
+    border-radius: 15px; */
+ 
+.search:focus{
+    border:none;
+    outline:none;
+    box-shadow: 1px 1px 1px 1px rgb(162, 199, 248);
+    }
+    .search{
+       border:none;
+       border-radius: 100px;
+       height:40px;
+       width:45%;
+    padding-left: 10px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    
+
+    }
+    .button{
+        border:none;
+        border-radius: 50px;
+        margin-left: -3%;
+        background-color: white;
+    }
+    .button:focus{
+        border:none;
+        outline: none;
+    }
+     /* @media screen and(min-width:425px){ 
+        .button{
+            
+            margin-right: -300px;
+            background-color: white;
+            border:none;
+            border-radius: 50px;}
+        }
+        .button:focus{
+            border:none;
+            outline: none;
+        } */
+    
